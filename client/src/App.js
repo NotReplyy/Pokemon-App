@@ -1,11 +1,11 @@
 import './App.css';
-import LandingPage from './Components/LandingPage/LandingPage';
+import LandingPage from './Components/LandingPage/LandingPage.js';
 import { Route, useLocation } from 'react-router-dom'
 import Home from './Components/Home/Home';
-import CreatePokemon from './Components/CreatePokemon/CreatePokemon';
+import CreatePokemon from './Components/CreatePokemon/CreatePokemon.js';
 import Navbar from './Components/Navbar/NavBar';
-import PokemonDetails from './Components/PokemonDetails/PokemonDetails';
-import PokemonByName from './Components/Search/PokemonByName';
+import PokemonDetails from './Components/PokemonDetails/PokemonDetails.js';
+import PokemonByName from './Components/Search/PokemonByName.js';
 import axios from 'axios';
 import dotenv from 'dotenv';
 

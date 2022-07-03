@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import './LandingPage.css'
 
 
-function Landingpage() {
+function LandingPage() {
   return (
     <div className="landing-Class">
       <div>
@@ -20,4 +20,4 @@ function Landingpage() {
   )
 }
 
-export default Landingpage
+export default LandingPage
