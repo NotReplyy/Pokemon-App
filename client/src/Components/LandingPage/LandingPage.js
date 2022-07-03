@@ -1,5 +1,5 @@
 import React from 'react'
-import imgBack from '../../Images/back-landing.png'
+import imgBack from '../../Images/back-Landing.png'
 import { Link } from 'react-router-dom'
 import './LandingPage.css'
 
