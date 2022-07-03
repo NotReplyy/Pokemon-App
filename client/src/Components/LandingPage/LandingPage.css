@@ -1,13 +1,17 @@
-.img-Class {
-    height: 100vh; 
-    text-align: center;
-    position: relative;
+.landing-Class .img-Class {
+    margin-top: 30px;
+    height: 40%;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+
+
     /* background-size: cover; */
 }
 
 .button-Class {
     position: absolute;
-    top: 81.7%;
+    top: 82%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
