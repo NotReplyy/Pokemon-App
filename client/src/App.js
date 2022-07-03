@@ -1,5 +1,5 @@
 import './App.css';
-import Landingpage from './Components/LandingPage/LandingPage';
+import LandingPage from './Components/LandingPage/LandingPage';
 import { Route, useLocation } from 'react-router-dom'
 import Home from './Components/Home/Home';
 import CreatePokemon from './Components/CreatePokemon/CreatePokemon';
@@ -14,7 +14,7 @@ function App() {
   // console.log(pathname)
   return (
     <div className='App'>
-      {(pathname === "/") ? (<Route path='/' component={Landingpage} />)
+      {(pathname === "/") ? (<Route path='/' component={LandingPage} />)
         : (<>
           <Navbar />
           <Route path='/home' component={Home} />
