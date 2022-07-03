@@ -1,7 +1,7 @@
 import './App.css';
-import LandingPage from './Components/LandingPage/LandingPage.js';
 import { Route, useLocation } from 'react-router-dom'
 import Home from './Components/Home/Home';
+import LandingPage from './Components/LandingPage/LandingPage.js';
 import CreatePokemon from './Components/CreatePokemon/CreatePokemon.js';
 import Navbar from './Components/Navbar/NavBar';
 import PokemonDetails from './Components/PokemonDetails/PokemonDetails.js';
