@@ -1,0 +1,36 @@
+.img-Class {
+    height: 100vh; 
+    text-align: center;
+    position: relative;
+    /* background-size: cover; */
+}
+
+.button-Class {
+    position: absolute;
+    top: 81.7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 26px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    letter-spacing: 10px;
+    padding: 10px 80px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.button-Class:hover {
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width: 640px) {
+    .img-Class {
+        height: 100vh;
+        width: 100%;
+    }
+}

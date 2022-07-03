@@ -1,0 +1,32 @@
+.content-pag {
+    display: flex;
+    margin-left: 10%; 
+    margin-top: 40px; 
+    justify-content: space-around;
+    
+}
+
+.button-pag {
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: gainsboro;    
+    font-size: 26px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    letter-spacing: 10px;
+    padding: 5px 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;    
+}
+
+.button-pag:hover {
+    background-color: black;
+    color: white;
+}
+
+.button-pag[disabled]{
+    background-color: grey ;
+    color:black;
+    cursor:no-drop
+}

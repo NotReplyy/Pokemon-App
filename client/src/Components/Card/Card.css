@@ -1,0 +1,57 @@
+.father-Card {
+    display: flex;
+    margin-top: 30px;        
+}
+
+
+.card {
+    /* background: #3c3e44; */
+    background-image: url(../../Images/Back-Card.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    height: 100%;
+    width: 260px;
+
+}
+
+.father-Card .card .content-card {
+    width: 80%;
+    margin: auto;
+    height: 250px;
+}
+
+.card-title {
+    margin: 0;
+    margin-top: 15px;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-transform: capitalize;
+    font-size: 18px;
+    letter-spacing: 10px;
+    text-decoration: none;
+    color: #fff;
+    padding: 0;
+}
+
+.card-image {
+    max-width: 10em;
+    max-height: 10em;
+    min-width: 10em;
+    min-height: 10em;
+    margin-top: 10px;
+}
+
+.card-Type {
+    color: #fff;
+    margin: 1px;
+    background-color: rgba(255, 255, 230, 0.267);
+    border-radius: 20px;
+    text-align: center;
+    padding: 2px 10px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-transform: capitalize;
+    letter-spacing: 10px;
+    font-size: 16px;
+    place-self: flex-start;   
+}
+

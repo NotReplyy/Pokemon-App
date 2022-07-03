@@ -1,0 +1,61 @@
+.filters-order {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;    
+    font-size: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin-left: 20px;
+}
+
+.class-orderName select {
+    display: grid;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 16px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-transform: capitalize;
+    border-color: rgba(166,158,112,255);
+    border-width: 2px;
+    border-style: solid;
+}
+
+.class-filterType select {
+    display: grid;
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 16px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-transform: capitalize;    
+    border-color: rgba(166,158,112,255);
+    border-width: 2px;
+    border-style: solid;
+}
+
+.class-filterCreation select {
+    display: grid;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 16px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-transform: capitalize;
+    border-color: rgba(166,158,112,255);
+    border-width: 2px;
+    border-style: solid;
+}
+
+
+@media screen and (max-width: 640px) {
+    .filters-order{
+        font-size: 14px;
+   margin-left: 50px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .filters-order select{
+        font-size: 14px;        
+        margin-bottom: 10px;
+        
+    }
+}

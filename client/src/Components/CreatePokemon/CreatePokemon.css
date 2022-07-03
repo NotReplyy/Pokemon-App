@@ -1,0 +1,111 @@
+.Container-Create {
+    color: white;
+    margin-top: 200px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-transform: capitalize;
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+
+.container-input {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.container-input input {
+    font-family: "Lucida Console", "Courier New", monospace;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-size: 14px;
+    background-color: gainsboro;
+    padding: 8px;
+    border-color: rgba(166,158,112,255);
+    border-width: 2px;
+    border-style: solid;
+    
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
+
+::placeholder {
+    color: black
+}
+
+.Container-Create p {
+    color: red;
+    font-size: 13px;
+    margin-left: 20px;
+    letter-spacing: 0px;
+    margin-top: 10px;
+}
+
+
+.form-type {
+    position: absolute;
+    top: 40%;
+    left: 6%;
+    font-size: 14px;
+    text-transform: capitalize;
+    max-width: 89%;
+}
+
+.form-type h4 {
+    font-size: 20px;
+}
+
+.form-image {
+    position: absolute;
+    top: 60%;
+    left: 42.2%;
+    
+
+}
+
+.form-image input {
+    font-family: "Lucida Console", "Courier New", monospace;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-size: 14px;
+    background-color: gainsboro;
+    width: 300px;
+    padding: 8px;
+    border-color: rgba(166,158,112,255);
+    border-width: 2px;
+    border-style: solid;
+}
+
+.form-button button {
+    position: absolute;
+    top: 85%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: gainsboro;
+    font-size: 26px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    letter-spacing: 10px;
+    padding: 5px 40px;
+    border-color: rgba(166,158,112,255);
+    border-width: 2px;
+    border-style: solid;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.form-button button:hover {
+    background-color: black;
+    color: white;
+}
+
+.form-button button[disabled] {
+    background-color: grey;
+    color: black;
+    cursor: no-drop
+}
