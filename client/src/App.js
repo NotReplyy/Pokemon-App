@@ -6,7 +6,12 @@ import CreatePokemon from './Components/CreatePokemon/CreatePokemon';
 import Navbar from './Components/Navbar/NavBar';
 import PokemonDetails from './Components/PokemonDetails/PokemonDetails';
 import PokemonByName from './Components/Search/PokemonByName';
+import axios from 'axios';
+import dotenv from 'dotenv';
 
+dotenv.config();
+
+axios.defaults.baseURL = process.env.REACT_APP_API || 'http://localhost:3001';
 
 
 function App() {
