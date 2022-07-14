@@ -190,8 +190,19 @@ const postPokemon = async (req, res, next) => {
         })
         await newPokemon.addTypes(types);
         res.send(newPokemon)
+    } catch (error) {        
+        next(error)
+    }
+}
+
+const deletePokemonById = async (req, res, next) => {
+    const {id} = req.params
+    try {
+       const deletPokemon= await Pokemon.destroy({
+        where:{id : id}
+       })
+       res.send('Pokemon has been delete') 
     } catch (error) {
-        // console.log('estoy en el catch');
         next(error)
     }
 }
@@ -206,5 +217,5 @@ module.exports = {
     getAllPokemon,
     getPokemonById,
     postPokemon,
-   // allPokeId
+    deletePokemonById
 }

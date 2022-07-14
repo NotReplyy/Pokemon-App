@@ -8,12 +8,14 @@ function Landingpage() {
   return (
     <div className="landing-Class">
       <div>
-        <img className="img-Class" src={imgBack} alt='Background' />
-      </div>
-      <div>
-        <Link to='/home'>
-          <button className="button-Class">Get Into</button>
-        </Link>
+        <div className='div-img'>
+          <img className="img-Class" src={imgBack} alt='Background' />
+        </div>       
+          <div className='div-buttonLanding'>
+            <Link to='/home'>
+              <button className="button-Class-lan">Get Into</button>
+            </Link>        
+        </div>
       </div>
     </div>
 

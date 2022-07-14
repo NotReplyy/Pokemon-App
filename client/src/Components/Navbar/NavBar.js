@@ -8,11 +8,7 @@ function Navbar() {
 
   return (
     <div>
-      <nav className='nav-Class'>
-        <div className='nav-Nahuel'>
-          <div className='div-Search'>
-          <Search/>
-          </div>
+      <nav className='nav-Class'>       
           <div className='div-List'>
           <ul className='ul-List'>
             <NavLink to='/home'>
@@ -23,7 +19,10 @@ function Navbar() {
             </NavLink>
           </ul>
           </div>
-        </div>      
+          <div className='div-Search'>
+          <Search/>
+          </div>
+          
       </nav>
     </div>
   )

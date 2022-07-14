@@ -1,20 +1,17 @@
-.landing-Class .img-Class {
-    margin-top: 30px;
-    height: 40%;
-    width: 40%;
+.landing-Class {
+    height: 100vh;
+    display: flex;
     justify-content: center;
     align-items: center;
-
-
-    /* background-size: cover; */
 }
 
-.button-Class {
-    position: absolute;
-    top: 82%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+.div-buttonLanding{    
+    display: flex;
+    justify-content: center;  
+    padding: 20px;
+}
+
+.button-Class-lan {
     background-color: #f1f1f1;
     color: black;
     font-size: 26px;
@@ -27,14 +24,18 @@
     text-align: center;
 }
 
-.button-Class:hover {
+.button-Class-lan:hover {
     background-color: black;
     color: white;
 }
 
 @media screen and (max-width: 640px) {
     .img-Class {
-        height: 100vh;
-        width: 100%;
+        height: 80%;
+        width: 80%;
+    }
+    .button-Class-lan{
+        margin-top: 20px;
+        padding: 5px 40px;
     }
 }

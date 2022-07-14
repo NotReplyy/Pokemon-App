@@ -3,10 +3,6 @@
 }
 
 .Container-card {
-    /* display: grid;
-    gap: 2rem;
-    grid-auto-rows: 20rem;
-    grid-template-columns: repeat(auto-fill, minmax(min(100%, 15rem), 1fr)); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,7 +19,7 @@
 
 
 .container-Subnav {
-    margin-top: 100px;
+    margin-top: 10px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -59,7 +55,7 @@
 
 
 @media screen and (max-width: 640px) {
-    
+
     .container-Subnav {
         margin-top: 30px;
         width: 100%;
@@ -67,24 +63,27 @@
         justify-content: center;
         align-items: center;
     }
-    
+
     .poke-pagination {
         position: fixed;
         bottom: 0%;
         margin-left: 43%;
     }
+
     .filter {
         width: 5%;
         margin-top: 200px;
         margin-left: 40%;
         font-size: 1em;
     }
+
     .poke-h1 {
         margin-top: 0;
-  margin-right: 40%
+        margin-right: 40%
     }
-    .Class-Card{
+
+    .Class-Card {
         padding-bottom: 40px;
     }
-   
+
 }
