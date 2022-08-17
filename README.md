@@ -2,9 +2,8 @@
 
 # Individual Project - Henry Pokemon
 
-<img height="150" src="./pokemon.png" />
 
-###Link Deploy = https://pokemon-app-gus.vercel.app/ 
+-Link Deploy = https://pokemon-app-gus.vercel.app/ 
 
 ## Objetivos del Proyecto
 
